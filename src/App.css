@@ -1,0 +1,49 @@
+*{
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+#root{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  background-color: aqua;
+}
+.container{
+  max-height: 400px;
+  max-width: 400px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+#search{
+  font-size: 30px;
+  height: 50px;
+  width:340px;
+  border:none;
+  text-align: end;
+  border-radius: 10px 10px 0px 0px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.number input{
+  font-size: 30px;
+  width: 75px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  margin: 5px;
+}
+.number input:hover{
+  background-color: #aba9a9;
+}
+#sym{
+  background-color: rgb(210, 181, 15);
+  color: white;
+}
+#symm{
+  background-color: #aba9a9;
+}
+#symm:hover{
+  background-color: #828181;
+}
